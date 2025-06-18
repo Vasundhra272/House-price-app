@@ -1,6 +1,5 @@
+## 🌐 Live Demo
 
-# House-price-app
-A Streamlit-based house price prediction app
+👉 [Click here to open the live app](https://vasundhra272-house-price-app.streamlit.app)
 
-# House-price-app
 
