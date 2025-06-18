@@ -25,6 +25,6 @@ age = st.slider("", 0, 30, 5)
 if st.button("🔍Predict Price"):
     data = [[size, bed, bath, age]]
     prediction = model.predict(data)
-    st.markdown(f"""<h3 style='text-align:center; color:forestgreen;'>🔘 Estimated Price: ₹{int(prediction[0]):,}</h3>""", unsafe_allow_html=True)
+    st.markdown(f"""<h4 style='text-align:center; color:forestgreen;'>Estimated Price: ₹{int(prediction[0]):,}</h4>""", unsafe_allow_html=True)
 
 
