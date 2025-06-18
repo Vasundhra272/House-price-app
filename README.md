@@ -1,6 +1,24 @@
+# 🏠 House Price Prediction App
 
-# House-price-app
-A Streamlit-based house price prediction app
+A simple and effective machine learning web app built with **Streamlit** that predicts house prices based on:
 
-# House-price-app
+- Area (sqft)
+- Bedrooms
+- Bathrooms
+- Age of the house
 
+---
+
+## 🌐 Live Demo
+
+👉 [Click here to try the app](https://vasundhra272-house-price-app.streamlit.app)
+
+---
+
+## 📦 Tech Stack
+
+- `Python`
+- `pandas`
+- `scikit-learn`
+- `joblib`
+- `Streamlit`
