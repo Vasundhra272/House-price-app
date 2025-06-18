@@ -10,9 +10,9 @@ model = joblib.load('model.pkl')
 st.title("🏠 House Price Prediction App")
 
 # Inputs
-size = st.number_input("Area in sqft", min_value=500, max_value=5000, step=100)
-bed = st.slider("Bedrooms", 1, 5, 2)
-bath = st.slider("Bathrooms", 1, 4, 2)
+size = st.number_input("Area in sqft", min_value=500, max_value=500000, step=100)
+bed = st.slider("Bedrooms", 1, 10, 2)
+bath = st.slider("Bathrooms", 1, 5, 2)
 age = st.slider("Age of house (years)", 0, 30, 5)
 
 # Predict
