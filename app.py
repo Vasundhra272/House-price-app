@@ -8,6 +8,9 @@ st.markdown("""
    <style>
      .main{
      background-color: ghostwhite;
+   }
+     input[type=range] {
+     accent-color-dodgerblue}
    </style>""",unsafe_allow_html=True)
 
 model = joblib.load('model.pkl')
@@ -22,7 +25,7 @@ st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bedroom</i></p>
 bed = st.slider("", 2, 10, 2)
 
 st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bathroom</i></p>",unsafe_allow_html=True)
-bath = st.slider("", 1, 5, 2)
+bath = st.selectbox("", options=[1, 2, 3, 4, 5])
 
 st.markdown("<p style='font-size:20px; color:navy;'><i>Age of House(years)</i></p>",unsafe_allow_html=True)
 age = st.slider("", 0, 30, 5)
