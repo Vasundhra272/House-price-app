@@ -8,10 +8,6 @@ A simple and effective machine learning web app built with **Streamlit** that pr
 - Bathrooms
 - Age of the house
 
-## 🌐 Live Demo
-
-👉 [Click here to open the live app](https://vasundhra272-house-price-app.streamlit.app)
-
 
 ---
 
