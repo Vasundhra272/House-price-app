@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 
+st.set_option('client.showErrorDetails', True)
 st.set_page_config(page_title="House Price Prediction", layout="centered")
 
 model = joblib.load('model.pkl')
