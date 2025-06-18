@@ -23,10 +23,10 @@ st.markdown("<p style='font-size:20px; color:navy;'><i>Enter House Size</i> </p>
 size = st.number_input("",min_value=500, max_value=5000000, step=100)
 
 st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bedroom</i></p>",unsafe_allow_html=True)
-bed = st.slider("", 2, 10, 2)
+bed = st.slider("", 1, 10, 2)
 
 st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bathroom</i></p>",unsafe_allow_html=True)
-bath = st.selectbox("", options=[1, 2, 3, 4, 5])
+bath = st.slider("", 1, 5,2)
 
 st.markdown("<p style='font-size:20px; color:navy;'><i>Age of House(years)</i></p>",unsafe_allow_html=True)
 age = st.slider("", 0, 30, 5)
