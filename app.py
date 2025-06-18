@@ -10,7 +10,7 @@ st.markdown("""
      background-color: ghostwhite;
    }
      input[type=range] {
-     accent-color-dodgerblue}
+     accent-color-dodgerblue;}
    </style>""",unsafe_allow_html=True)
 
 model = joblib.load('model.pkl')
