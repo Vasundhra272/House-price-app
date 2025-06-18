@@ -13,7 +13,7 @@ A simple and effective machine learning web app built with **Streamlit** that pr
 
 ## 🌐 Live Demo
 
-👉 [Click here to try the app](https://vasundhra272-house-price-app.streamlit.app)
+👉 [Click here to try the app](https://house-price-app-dl4kwaknbuddyn3uur7mu9.streamlit.app/)
 
 ---
 
