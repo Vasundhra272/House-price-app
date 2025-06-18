@@ -15,16 +15,16 @@ model = joblib.load('model.pkl')
 st.markdown("""<h1 style='text-align:center; font-size:40px; color:darkblue;'>🏡 House Price Predictor </h1>
             <p style='text-align:center; font-size:25px; color:darkblue'> Please fill all required fields</p>""",unsafe_allow_html=True)
 
-st.markdown("<p style='font-size:20px; color:navy;'><b>Enter House Size</b> </p>",unsafe_allow_html=True)
+st.markdown("<p style='font-size:20px; color:navy;'><i>Enter House Size</i> </p>",unsafe_allow_html=True)
 size = st.number_input("",min_value=500, max_value=5000000, step=100)
 
-st.markdown("<p style='font-size:20px; color:navy;'><b>Number of Bedroom</b></p>",unsafe_allow_html=True)
+st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bedroom</i></p>",unsafe_allow_html=True)
 bed = st.slider("", 2, 10, 2)
 
-st.markdown("<p style='font-size:20px; color:navy;'><b>Number of Bathroom</b></p>",unsafe_allow_html=True)
+st.markdown("<p style='font-size:20px; color:navy;'><i>Number of Bathroom</i></p>",unsafe_allow_html=True)
 bath = st.slider("", 1, 5, 2)
 
-st.markdown("<p style='font-size:20px; color:navy;'><b>Age of House(years)</b></p>",unsafe_allow_html=True)
+st.markdown("<p style='font-size:20px; color:navy;'><i>Age of House(years)</i></p>",unsafe_allow_html=True)
 age = st.slider("", 0, 30, 5)
 
 
