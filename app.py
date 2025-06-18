@@ -10,16 +10,16 @@ st.markdown("""<h1 style='text-align:center; font-size:40px; color:darkblue;'>ğŸ
             <p style='text-align:center; font-size:25px; color:darkblue'> Fill the detail below</p>""",unsafe_allow_html=True)
 
 st.markdown("<p style='font-size:20px;'>Enter House Size </p>",unsafe_allow_html=True)
-size = st.number_input("", min_value=500, max_value=5000000, step=100)
+size = st.number_input(min_value=500, max_value=5000000, step=100)
 
 st.markdown("<p style='font-size:20px;'>Number of Bedroom</p>",unsafe_allow_html=True)
-bed = st.slider("", 2, 10, 2)
+bed = st.slider( 2, 10, 2)
 
 st.markdown("<p style='font-size:20px;'>Number of Bathroom</p>",unsafe_allow_html=True)
-bath = st.slider("", 1, 5, 2)
+bath = st.slider( 1, 5, 2)
 
 st.markdown("<p style='font-size:20px;'>Age of House(years)</p>",unsafe_allow_html=True)
-age = st.slider("", 0, 30, 5)
+age = st.slider( 0, 30, 5)
 
 
 if st.button("ğŸ”Predict Price"):
