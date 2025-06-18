@@ -1,3 +1,4 @@
+
 # 🏠 House Price Prediction App
 
 A simple and effective machine learning web app built with **Streamlit** that predicts house prices based on:
@@ -6,6 +7,11 @@ A simple and effective machine learning web app built with **Streamlit** that pr
 - Bedrooms
 - Bathrooms
 - Age of the house
+
+## 🌐 Live Demo
+
+👉 [Click here to open the live app](https://vasundhra272-house-price-app.streamlit.app)
+
 
 ---
 
